@@ -1,0 +1,49 @@
+body {
+ background: linear-gradient(135deg, rgb(204, 204, 3), rgb(107, 107, 1), rgb(78, 67, 1))fixed;
+}
+
+header {
+   background: darkgray;
+   display: block;
+   padding-left: 70px;
+}
+
+header img {
+   width: 20%;
+}
+
+.botoes {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.button {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+    transition: 1s;
+    background-color: darkcyan;
+    color: white;
+ }
+ 
+ .button:hover {
+   transform: scale(1.15);
+   background-color: lightcyan;
+   color: darkslategray;
+ }
+
+ .button.procuro {
+    margin-top: 40px;
+ }
+
+ header h3 {
+   position: absolute;
+   right: 10px;
+   top: 40px;
+   font-size: 18px;
+   font-style: italic;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
