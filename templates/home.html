@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <title>AcheiVan.com</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="../static/reset.css">
-        <link rel="stylesheet" href="../static/style.css">
-    </head>
-    <body>
-        <header>
-            <img src="../static/img/logo.png" alt="achei van">
-        </header>            
-            <ul class="botoes">
-                <li><a href="van" class="button faco">Faço Transporte</a></li>
-                <li><a href="passa" class="button procuro">Procuro Transporte</a></li>
-            </ul>
-    </body>
-</html>
+ {% extends "template.html" %}
+ {% block conteudo %}        
+    <ul class="botoes">
+        <li><a href="van" class="button faco">Faço Transporte</a></li>
+        <li><a href="passa" class="button procuro">Procuro Transporte</a></li>
+    </ul>
+{% endblock %}

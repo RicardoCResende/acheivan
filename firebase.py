@@ -42,6 +42,3 @@ def escolas(id, cidade): #retorna uma lista com as escolas da cidade selecionada
         lista_escolas.append(c)
     return lista_escolas
 
-print(estados())
-print(cidades('São Paulo'))
-print(escolas('São Paulo', 'Sumaré'))
